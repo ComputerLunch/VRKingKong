@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 77add36c0be8d49668352a695867c5ca
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: backWing
+    100002: body1
+    100004: FLWheel
+    100006: FLWheelHolder
+    100008: FRWheel
+    100010: FRWheelHolder
+    100012: mainWing
+    100014: mainWing1
+    100016: muffler
+    100018: pCylinder1
+    100020: polySurface1
+    100022: polySurface13
+    100024: polySurface15
+    100026: polySurface9
+    100028: Propeller1
+    100030: Propeller2
+    100032: RWheel
+    100034: //RootNode
+    100036: wheelHolderBack
+    100038: polySurface16
+    100040: propeller
+    100042: polySurface17
+    100044: polySurface18
+    100046: polySurface19
+    100048: propeller1
+    400000: backWing
+    400002: body1
+    400004: FLWheel
+    400006: FLWheelHolder
+    400008: FRWheel
+    400010: FRWheelHolder
+    400012: mainWing
+    400014: mainWing1
+    400016: muffler
+    400018: pCylinder1
+    400020: polySurface1
+    400022: polySurface13
+    400024: polySurface15
+    400026: polySurface9
+    400028: Propeller1
+    400030: Propeller2
+    400032: RWheel
+    400034: //RootNode
+    400036: wheelHolderBack
+    400038: polySurface16
+    400040: propeller
+    400042: polySurface17
+    400044: polySurface18
+    400046: polySurface19
+    400048: propeller1
+    2300000: backWing
+    2300002: body1
+    2300004: FLWheel
+    2300006: FLWheelHolder
+    2300008: FRWheel
+    2300010: FRWheelHolder
+    2300012: mainWing
+    2300014: mainWing1
+    2300016: muffler
+    2300018: polySurface15
+    2300020: Propeller1
+    2300022: Propeller2
+    2300024: RWheel
+    2300026: wheelHolderBack
+    2300028: polySurface16
+    2300030: propeller
+    2300032: polySurface17
+    2300034: polySurface18
+    2300036: polySurface19
+    2300038: propeller1
+    3300000: backWing
+    3300002: body1
+    3300004: FLWheel
+    3300006: FLWheelHolder
+    3300008: FRWheel
+    3300010: FRWheelHolder
+    3300012: mainWing
+    3300014: mainWing1
+    3300016: muffler
+    3300018: polySurface15
+    3300020: Propeller1
+    3300022: Propeller2
+    3300024: RWheel
+    3300026: wheelHolderBack
+    3300028: polySurface16
+    3300030: propeller
+    3300032: polySurface17
+    3300034: polySurface18
+    3300036: polySurface19
+    3300038: propeller1
+    4300000: mainWing
+    4300002: mainWing1
+    4300004: Propeller2
+    4300006: polySurface15
+    4300008: body1
+    4300010: muffler
+    4300012: FLWheel
+    4300014: FRWheel
+    4300016: FRWheelHolder
+    4300018: FLWheelHolder
+    4300020: RWheel
+    4300022: wheelHolderBack
+    4300024: backWing
+    4300026: Propeller1
+    4300028: polySurface16
+    4300030: propeller
+    4300032: polySurface17
+    4300034: polySurface18
+    4300036: polySurface19
+    4300038: propeller1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
