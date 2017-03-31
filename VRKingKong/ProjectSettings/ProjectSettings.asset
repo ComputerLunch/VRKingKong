@@ -384,7 +384,7 @@ PlayerSettings:
   webGLUseWasm: 0
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
-    1: NVR_SteamVR
+    1: NVR_SteamVR;VRTK_SDK_STEAMVR
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
