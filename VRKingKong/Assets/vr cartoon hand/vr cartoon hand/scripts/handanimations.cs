@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using VRTK;
 
 public class handanimations : MonoBehaviour
 {
@@ -28,7 +29,8 @@ public class handanimations : MonoBehaviour
     {
         anim = GetComponent<Animator>();
 
-		InvokeRepeating("GoToRandomHand", 20f,20.0f);
+		//InvokeRepeating("GoToRandomHand", 20f,20.0f);
+
     }
 
 
@@ -65,8 +67,7 @@ public class handanimations : MonoBehaviour
 
     void Update()
     {
-
-
+       
         if (Input.GetKeyDown(KeyCode.Q))
         {
             anim.SetTrigger(Idle);
