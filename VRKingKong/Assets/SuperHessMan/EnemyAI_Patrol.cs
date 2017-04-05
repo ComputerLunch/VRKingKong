@@ -38,6 +38,14 @@ public class EnemyAI_Patrol : MonoBehaviour {
 			}
 		}
 		GetComponent<Rigidbody> ().velocity = Velocity;
+
+//		Vector3 targetDir = Target - transform.position;
+//		float step = Speed * Time.deltaTime;
+//		Vector3 newDir = Vector3.RotateTowards(transform.forward, targetDir, step, 0.0F);
+//		Debug.DrawRay(transform.position, newDir, Color.red);
+
 		transform.LookAt (Target);
+		GetComponent<Transform> ().rotation = new Quaternion (-90f, transform.rotation.y, transform.rotation.z, transform.rotation.w);
+
 	}
 }
