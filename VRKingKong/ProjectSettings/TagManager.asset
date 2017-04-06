@@ -10,6 +10,7 @@ TagManager:
   - SmallPlane
   - MediumPlane
   - LargePlane
+  - Climbable
   layers:
   - Default
   - TransparentFX

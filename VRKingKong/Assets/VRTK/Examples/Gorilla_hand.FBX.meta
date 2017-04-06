@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 5ebd59fece667314d81bfcf2e93f81ef
+timeCreated: 1491487827
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: hand_2
+    100004: R_Finger_Controls
+    100006: R_Finger_Controls_1
+    100008: R_Finger_Controls_2
+    100010: R_Finger_Controls_3
+    100012: R_Finger_Palm_Base_con_
+    100014: R_Finger_Palm_Base_con__1
+    100016: R_Finger_Palm_Base_con__2
+    100018: R_Finger_Palm_Base_con__3
+    100020: R_Finger_Seg1_jnt_con_
+    100022: R_Finger_Seg1_jnt_con__1
+    100024: R_Finger_Seg1_jnt_con__2
+    100026: R_Finger_Seg1_jnt_con__3
+    100028: R_Finger_Seg1_jnt_drvr
+    100030: R_Finger_Seg1_jnt_drvr_1
+    100032: R_Finger_Seg1_jnt_drvr_2
+    100034: R_Finger_Seg1_jnt_drvr_3
+    100036: R_Finger_Seg2_jnt_con_
+    100038: R_Finger_Seg2_jnt_con__1
+    100040: R_Finger_Seg2_jnt_con__2
+    100042: R_Finger_Seg2_jnt_con__3
+    100044: R_Finger_Seg2_jnt_drvr
+    100046: R_Finger_Seg2_jnt_drvr_1
+    100048: R_Finger_Seg2_jnt_drvr_2
+    100050: R_Finger_Seg2_jnt_drvr_3
+    100052: R_Finger_Seg3_jnt_drvr
+    100054: R_Finger_Seg3_jnt_drvr_1
+    100056: R_Finger_Seg3_jnt_drvr_2
+    100058: R_Finger_Seg3_jnt_drvr_3
+    100060: R_FK_Finger_null
+    100062: R_FK_Finger_null_1
+    100064: R_FK_Finger_null_1_2
+    100066: R_FK_Finger_null_2
+    100068: R_FK_Finger_null_2_2
+    100070: R_FK_Finger_null_2_3
+    100072: R_FK_Finger_null_3
+    100074: R_FK_Finger_null_3_2
+    100076: R_FK_Thumb_null
+    100078: R_NB_FK_Finger_Base_jnt
+    100080: R_NB_FK_Finger_Base_jnt_1
+    100082: R_NB_FK_Finger_Base_jnt_2
+    100084: R_NB_FK_Finger_Base_jnt_3
+    100086: R_NB_FK_Finger_End_jnt
+    100088: R_NB_FK_Finger_End_jnt_1
+    100090: R_NB_FK_Finger_End_jnt_2
+    100092: R_NB_FK_Finger_End_jnt_3
+    100094: R_NB_FK_Finger_Mid_jnt
+    100096: R_NB_FK_Finger_Mid_jnt_1
+    100098: R_NB_FK_Finger_Mid_jnt_2
+    100100: R_NB_FK_Finger_Mid_jnt_3
+    100102: R_NB_FK_Finger_Palm_Base_jnt
+    100104: R_NB_FK_Finger_Palm_Base_jnt_1
+    100106: R_NB_FK_Finger_Palm_Base_jnt_2
+    100108: R_NB_FK_Finger_Palm_Base_jnt_3
+    100110: R_NB_FK_Finger_Top_jnt
+    100112: R_NB_FK_Finger_Top_jnt_1
+    100114: R_NB_FK_Finger_Top_jnt_2
+    100116: R_NB_FK_Finger_Top_jnt_3
+    100118: R_NB_FK_Thumb_Base_jnt
+    100120: R_NB_FK_Thumb_End_jnt
+    100122: R_NB_FK_Thumb_Mid_jnt
+    100124: R_NB_FK_Thumb_Root_jnt
+    100126: R_Thumb_Controls
+    100128: R_Thumb_null
+    100130: R_Thumb_Palm_Base_con_
+    100132: R_Thumb_Seg1_jnt_con_
+    100134: R_Thumb_Seg1_jnt_drvr
+    100136: R_Thumb_Seg2_jnt_drvr
+    100138: root
+    400000: //RootNode
+    400002: hand_2
+    400004: R_Finger_Controls
+    400006: R_Finger_Controls_1
+    400008: R_Finger_Controls_2
+    400010: R_Finger_Controls_3
+    400012: R_Finger_Palm_Base_con_
+    400014: R_Finger_Palm_Base_con__1
+    400016: R_Finger_Palm_Base_con__2
+    400018: R_Finger_Palm_Base_con__3
+    400020: R_Finger_Seg1_jnt_con_
+    400022: R_Finger_Seg1_jnt_con__1
+    400024: R_Finger_Seg1_jnt_con__2
+    400026: R_Finger_Seg1_jnt_con__3
+    400028: R_Finger_Seg1_jnt_drvr
+    400030: R_Finger_Seg1_jnt_drvr_1
+    400032: R_Finger_Seg1_jnt_drvr_2
+    400034: R_Finger_Seg1_jnt_drvr_3
+    400036: R_Finger_Seg2_jnt_con_
+    400038: R_Finger_Seg2_jnt_con__1
+    400040: R_Finger_Seg2_jnt_con__2
+    400042: R_Finger_Seg2_jnt_con__3
+    400044: R_Finger_Seg2_jnt_drvr
+    400046: R_Finger_Seg2_jnt_drvr_1
+    400048: R_Finger_Seg2_jnt_drvr_2
+    400050: R_Finger_Seg2_jnt_drvr_3
+    400052: R_Finger_Seg3_jnt_drvr
+    400054: R_Finger_Seg3_jnt_drvr_1
+    400056: R_Finger_Seg3_jnt_drvr_2
+    400058: R_Finger_Seg3_jnt_drvr_3
+    400060: R_FK_Finger_null
+    400062: R_FK_Finger_null_1
+    400064: R_FK_Finger_null_1_2
+    400066: R_FK_Finger_null_2
+    400068: R_FK_Finger_null_2_2
+    400070: R_FK_Finger_null_2_3
+    400072: R_FK_Finger_null_3
+    400074: R_FK_Finger_null_3_2
+    400076: R_FK_Thumb_null
+    400078: R_NB_FK_Finger_Base_jnt
+    400080: R_NB_FK_Finger_Base_jnt_1
+    400082: R_NB_FK_Finger_Base_jnt_2
+    400084: R_NB_FK_Finger_Base_jnt_3
+    400086: R_NB_FK_Finger_End_jnt
+    400088: R_NB_FK_Finger_End_jnt_1
+    400090: R_NB_FK_Finger_End_jnt_2
+    400092: R_NB_FK_Finger_End_jnt_3
+    400094: R_NB_FK_Finger_Mid_jnt
+    400096: R_NB_FK_Finger_Mid_jnt_1
+    400098: R_NB_FK_Finger_Mid_jnt_2
+    400100: R_NB_FK_Finger_Mid_jnt_3
+    400102: R_NB_FK_Finger_Palm_Base_jnt
+    400104: R_NB_FK_Finger_Palm_Base_jnt_1
+    400106: R_NB_FK_Finger_Palm_Base_jnt_2
+    400108: R_NB_FK_Finger_Palm_Base_jnt_3
+    400110: R_NB_FK_Finger_Top_jnt
+    400112: R_NB_FK_Finger_Top_jnt_1
+    400114: R_NB_FK_Finger_Top_jnt_2
+    400116: R_NB_FK_Finger_Top_jnt_3
+    400118: R_NB_FK_Thumb_Base_jnt
+    400120: R_NB_FK_Thumb_End_jnt
+    400122: R_NB_FK_Thumb_Mid_jnt
+    400124: R_NB_FK_Thumb_Root_jnt
+    400126: R_Thumb_Controls
+    400128: R_Thumb_null
+    400130: R_Thumb_Palm_Base_con_
+    400132: R_Thumb_Seg1_jnt_con_
+    400134: R_Thumb_Seg1_jnt_drvr
+    400136: R_Thumb_Seg2_jnt_drvr
+    400138: root
+    4300000: hand_2
+    9500000: //RootNode
+    13700000: hand_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
