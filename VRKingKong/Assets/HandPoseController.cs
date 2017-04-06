@@ -64,14 +64,14 @@ public class HandPoseController : MonoBehaviour {
     {
         grabbed = true;
         anim.CrossFade(GrabStickFront, 0.6f);
-        GetComponent<VRTK_ControllerActions>().TriggerHapticPulse(1, 1f, 0);
+        GetComponent<VRTK_ControllerActions>().TriggerHapticPulse(1000, 1f, 0);
     }
 
     private void UngrabbedWall(object sender, ObjectInteractEventArgs e)
     {
         grabbed = false;
         anim.CrossFade(GrabLarge, 0.6f);
-        GetComponent<VRTK_ControllerActions>().TriggerHapticPulse(0.5f, 0.5f, 0);
+        GetComponent<VRTK_ControllerActions>().TriggerHapticPulse(500, 0.5f, 0);
     }
 
 
