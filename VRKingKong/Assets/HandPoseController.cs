@@ -29,6 +29,8 @@ public class HandPoseController : MonoBehaviour {
 
     bool gripPressed = false;
     bool triggerPressed = false;
+    bool grabbed = false;
+
     void Start () {
         anim = hand.GetComponent<Animator>();
         anim.CrossFade(GrabLarge, 0.6f);
@@ -44,6 +46,11 @@ public class HandPoseController : MonoBehaviour {
 
         GetComponent<VRTK_ControllerEvents>().TriggerPressed += new ControllerInteractionEventHandler(DoTriggerPressed);
         GetComponent<VRTK_ControllerEvents>().TriggerReleased += new ControllerInteractionEventHandler(DoTriggerReleased);
+
+        GetComponent<VRTK_InteractUse>().ControllerUseInteractableObject += new ObjectInteractEventHandler(GrabbedWall);
+        GetComponent<VRTK_InteractUse>().ControllerUnuseInteractableObject += new ObjectInteractEventHandler(UngrabbedWall);
+
+        
     }
 
     // Update is called once per frame
@@ -53,13 +60,29 @@ public class HandPoseController : MonoBehaviour {
                 + " with a pressure of " + e.buttonPressure + " / trackpad axis at: " + e.touchpadAxis + " (" + e.touchpadAngle + " degrees)");
     }
 
+    private void GrabbedWall(object sender, ObjectInteractEventArgs e)
+    {
+        grabbed = true;
+        anim.CrossFade(GrabStickFront, 0.6f);
+        GetComponent<VRTK_ControllerActions>().TriggerHapticPulse(1, 1f, 0);
+    }
+
+    private void UngrabbedWall(object sender, ObjectInteractEventArgs e)
+    {
+        grabbed = false;
+        anim.CrossFade(GrabLarge, 0.6f);
+        GetComponent<VRTK_ControllerActions>().TriggerHapticPulse(0.5f, 0.5f, 0);
+    }
+
+
     private void DoGripPressed(object sender, ControllerInteractionEventArgs e)
     {
         gripPressed = true;
         DebugLogger(e.controllerIndex, "GRIP", "pressed", e);
 
-        if(triggerPressed) anim.CrossFade(Fist, 0.6f);
-        else anim.CrossFade(GrabStickFront, 0.6f);
+        //if(triggerPressed) anim.CrossFade(Fist, 0.6f);
+        if(grabbed) anim.CrossFade(GrabStickFront, 0.6f);
+        else anim.CrossFade(Fist, 0.6f);
     }
 
     private void DoGripReleased(object sender, ControllerInteractionEventArgs e)
