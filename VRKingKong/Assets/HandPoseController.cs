@@ -47,8 +47,8 @@ public class HandPoseController : MonoBehaviour {
         GetComponent<VRTK_ControllerEvents>().TriggerPressed += new ControllerInteractionEventHandler(DoTriggerPressed);
         GetComponent<VRTK_ControllerEvents>().TriggerReleased += new ControllerInteractionEventHandler(DoTriggerReleased);
 
-        GetComponent<VRTK_InteractUse>().ControllerUseInteractableObject += new ObjectInteractEventHandler(GrabbedWall);
-        GetComponent<VRTK_InteractUse>().ControllerUnuseInteractableObject += new ObjectInteractEventHandler(UngrabbedWall);
+        GetComponent<VRTK_InteractGrab>().ControllerGrabInteractableObject += new ObjectInteractEventHandler(GrabbedWall);
+        GetComponent<VRTK_InteractGrab>().ControllerUngrabInteractableObject += new ObjectInteractEventHandler(UngrabbedWall);
 
         
     }
