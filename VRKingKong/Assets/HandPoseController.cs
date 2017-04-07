@@ -62,11 +62,11 @@ public class HandPoseController : MonoBehaviour {
 
     protected virtual void OnTriggerEnter(Collider collider)
     {
-        if (!grabbed && !triggerPressed && collider.CompareTag("Climbable")) anim.CrossFade(Spread, 0.6f);
+        if (!grabbed && !triggerPressed) anim.CrossFade(Spread, 0.6f);
     }
     protected virtual void OnTriggerExit(Collider collider)
     {
-        if (!grabbed && !triggerPressed && collider.CompareTag("Climbable")) anim.CrossFade(GrabLarge, 0.6f);
+        if (!grabbed && !triggerPressed) anim.CrossFade(GrabLarge, 0.6f);
     }
 
 
