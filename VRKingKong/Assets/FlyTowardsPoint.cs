@@ -9,7 +9,7 @@ public class FlyTowardsPoint : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		target = GameObject.FindGameObjectWithTag("Player").transform;	
+		//target = GameObject.FindGameObjectWithTag("MainCamera").transform;	
 		print(target);
 
 	}
