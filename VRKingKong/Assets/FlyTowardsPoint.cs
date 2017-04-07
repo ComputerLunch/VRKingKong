@@ -9,7 +9,9 @@ public class FlyTowardsPoint : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		target = GameObject.FindGameObjectWithTag("Player").transform;	
+		print(target);
+
 	}
 	
 	// Update is called once per frame
